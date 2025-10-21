@@ -1,0 +1,7 @@
+route:
+  receiver: 'ansible-handler'
+
+receivers:
+  - name: 'ansible-handler'
+    webhook_configs:
+      - url: 'http://host.docker.internal:5001/'
