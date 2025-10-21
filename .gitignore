@@ -1,0 +1,26 @@
+# Ignore Ansible temporary files
+*.retry
+*.log
+*.tmp
+
+# Ignore local configuration or credentials
+*.vault
+*.secret
+*.key
+*.pem
+
+# Ignore Python cache (for webhook_listener.py)
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE / editor settings
+.vscode/
+.idea/
+
+# Ignore build and virtual environment files
+venv/
+.env/
