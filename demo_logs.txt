@@ -1,0 +1,4 @@
+[2025-10-21 12:15:33] Alert triggered: NginxDown
+[2025-10-21 12:15:36] Webhook received alert
+[2025-10-21 12:15:37] Running ansible playbook...
+[2025-10-21 12:15:39] SUCCESS: NGINX restarted successfully
