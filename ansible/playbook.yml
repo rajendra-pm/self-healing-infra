@@ -1,0 +1,7 @@
+---
+- name: Self-Heal NGINX
+  hosts: local
+  tasks:
+    - name: Restart NGINX service
+      become: yes
+      shell: systemctl restart nginx || docker restart nginx
